@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background: #4285f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    padding: 20px;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+.inp-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+}
+#inp{
+    width: 100%;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.inp-box i{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+}
+.requirment-box{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.requirment-box p{
+    margin-bottom: 10px;
+}
+#requirment-list li{
+    list-style: none;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+}
+#requirment-list .valid i{
+    font-size: 20px;
+    color: green;
+}
+.requirment-item i{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+@media (max-width: 390px){
+    .box{
+        padding: 15px;
+        width: 310px;
+    }
+}

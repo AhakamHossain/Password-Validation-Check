@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation Check</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/f9a52f761c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <div class="inp-box">
+                <input type="password" id="inp" placeholder="Create password">
+                <i class="fa-solid fa-eye" id="eye-icon"></i>
+            </div>
+            <div class="requirment-box">
+                <p>Password should be</p>
+                <ul id="requirment-list">
+                    <li class="requirment-item">
+                        <i class="fa-solid fa-circle"></i>
+                        <span>At last 8 characters long</span>
+                    </li>
+                    <li class="requirment-item">
+                        <i class="fa-solid fa-circle"></i>
+                        <span>At least 1 number (0...9)</span>
+                    </li>
+                    <li class="requirment-item">
+                        <i class="fa-solid fa-circle"></i>
+                        <span>At lest 1 lowercase letter (a...z)</span>
+                    </li>
+                    <li class="requirment-item">
+                        <i class="fa-solid fa-circle"></i>
+                        <span>At least 1 special characters (!...$)</span>
+                    </li>
+                    <li class="requirment-item">
+                        <i class="fa-solid fa-circle"></i>
+                        <span>At least 1 uppercase letter (A...Z)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
